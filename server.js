@@ -1,5 +1,5 @@
 var express = require('express'),
-    app = exress(),
+    app = express(),
     port = process.env.port || 8080,
     mongoose = require('mongoose'),
     passport = require('passport'),
