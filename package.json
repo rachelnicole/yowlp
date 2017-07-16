@@ -1,0 +1,45 @@
+{
+  "name": "yowlp",
+  "version": "1.0.0",
+  "description": "It's yelp... but for animals?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelnicole/yowlp.git"
+  },
+  "keywords": [
+    "cats",
+    "dogs",
+    "animals",
+    "cat",
+    "cafe",
+    "cafe",
+    "petting"
+  ],
+  "author": "Rachel White <loveless@gmail.com> (http://rachelisaweso.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rachelnicole/yowlp/issues"
+  },
+  "homepage": "https://github.com/rachelnicole/yowlp#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.3",
+    "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+  }
+}
